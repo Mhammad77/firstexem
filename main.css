@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul {
+    display: flex;
+    /* justify-content: space-evenly; */
+    list-style-type: none;
+
+}
+.navbar{
+    background-color: rgb(174, 63, 63);
+   
+    padding: 20px;
+    color: white;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    transition: all 0.7s ease;  
+    margin-right: 20px;  
+  
+    
+}
+.navbar ul li a:hover{
+
+   
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(249, 249, 249);
+    /* border-color:white ; */
+   
+    padding: 5px;
+}
+.navba li {
+    padding: 20px 10px;
+}
+.first{
+    height: 0%;
+    width: 100%;
+    background-color: rgb(174, 63, 63);
+
+}
+.page p{
+   justify-content: space-evenly;  
+   display: flex;
+   font-size: 55px;
+   color: white;
+  
+
+}
+.page h6{
+ 
+    justify-content:center; 
+    display: flex;
+ font-size: 20px;
+    color: white;
+    margin-top: 50px; 
+
+  
+}
+.page button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+   margin-left: 660px;
+ font-size: 20px;
+ padding: 10px 5px; 
+ margin-top: 50px; 
+ margin-bottom: 150px;
+ width: 10%;
+}
+.page button:hover{
+    
+    background-color:white;
+    color:black;
+    border: none;
+    
+
+}
+.ffff{
+    color: rgb(160, 159, 159);
+}
+.conteiner{
+    width: 60%;
+    
+   /* text-align: center; */
+    justify-content:center; 
+    display: flex;
+    margin-left: 300px;
+}
+.right{
+    width: 70%;
+}
+.right h2{
+    font-weight:270;
+    margin-bottom: 60px;
+    margin-top: 100px;   
+    font-size:40PX      ;
+}
+
+   
+   
+.left  i {
+   
+    width: 30%;
+    font-size: 170px;
+    color:rgb(174, 63, 63);
+    margin-left: 30px;
+    margin-top: 150PX;
+}
+.rightt i{
+    
+    width: 30%;
+    font-size: 170px;
+    color:rgb(174, 63, 63);
+    margin-left: 30px;
+    margin-top: 150PX;
+    margin-bottom: 30px;
+
+}
+
+.left h2{
+    font-weight:270;
+    margin-bottom: 60px;
+    margin-top: 100px;   
+    font-size:40PX      ;
+}
+.rightt i{
+    margin-right: 30px;
+}
+
+
